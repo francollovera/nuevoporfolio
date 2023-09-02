@@ -1,3 +1,77 @@
 {
-    
+    "encabezado":{
+        "header":"Franco",
+        "nav-inicio":"INICIO",
+        "nav-sobremi":"SOBRE MI",
+        "nav-skills":"SKILLS",
+        "nav-educacion":"EDUCACION",
+        "nav-portfolio":"PORTFOLIO"
+    },
+    "inicio":{
+        "titulo":"FRANCO LLOVERA",
+        "trabajo":"Desarrollador Front End"
+        
+    },
+    "sobremi":{
+        "titulosobremi":"Sobre Mí",
+        "parrafo":"Hola, soy Franco Llovera. Un apasionado desarrollador web Full Stack especializado en FrontEnd, originario de San Miguel de Tucumán, Argentina, y con 29 años de edad. Siempre me ha fascinado el mundo del diseño web y todo lo relacionado con los aspectos visuales de las aplicaciones. Mi enfoque se centra en crear experiencias digitales atractivas y funcionales para los usuarios. Tengo amplios conocimientos en tecnologías como React, Redux, HTML, CSS, Node, SQL y JavaScript. Durante mi educación en la UTN de Tucumán, además de tener la oportunidad de aprender en Google, mi pasión por el desarrollo web me llevó a embarcarme en un emocionante viaje educativo en la academia Soy Henry, donde adquirí habilidades sólidas y participé en proyectos diversos. Estoy listo para asumir nuevos desafíos y colaborar en proyectos que marquen la diferencia. Si estás buscando un desarrollador web apasionado y dedicado, no dudes en contactarme. ¡Juntos podemos convertir ideas increíbles en realidad en el mundo del desarrollo web!"
+        
+    },
+    "datospersonales":{
+        "titulodatos":"Datos Personales",
+        "telefono":"Teléfono",
+        "Ubicación":"Ubicación",
+        "Cargo":"Cargo"
+       
+    },
+    "intereses":{
+        "titulointereses":"Intereses",
+        "canto":"CANTO",
+        "ubicación":"VIAJAR",
+        "deporte":"DEPORTE",
+        "autos":"AUTOS",
+        "fotos":"FOTOS",
+        "cv":"Descargar CV"
+
+       
+    },
+    "Professional Skills":{
+        "comunicacion":"Comunicación",
+        "trabajoenequipo":"Trabajo en Equipo",
+        "cretaividad":"Creatividad",
+        "dedicacion":"Dedicación"
+        
+
+       
+    },
+    "educacion":{
+        "tituloeducacion":"Educación",
+        "cargo1":"Desarrollador Full Stack",
+        "academia1":"Academia Soy Henry",
+        "experiencia1":"Durante mi experiencia en Henry, he logrado alcanzar diversos logros y desempeñar funciones que han contribuido significativamente a mi crecimiento profesional. Participar en este programa de formación intensiva ha sido una experiencia sumamente enriquecedora y positiva, proporcionándome abundante material para aprender y un desafío constante que definitivamente vale la pena.",
+        "cargo2":"Curso CSS",
+        "academia2":"Codigo Facilito",
+        "experiencia2":"El curso me dio las habilidades para continuar mi aprendizaje en CSS, hacer un diseño responsive y a la vez logar aprender animaciones para seguir agregando a mis diseños",
+        "cargo3":"Front Developer",
+        "academia3":"Codigo Facilito",
+        "experiencia3":"Como el sector Front End es el área que me apasiona continué estudiando a fondo el diseño responsivo y las diferentes formas de hacerlo, al igual que profundizar en herramientas como Boostrap y otras.",
+        "cargo4":"Curso de TypeScript",
+        "academia4":"Codigo Facilito",
+        "experiencia4":"Al momento de estar finalizando mi carrera por la Academia Henry me aventuré en aprender un poco más e hice el curso de TypeScript para seguir aprendiendo un código más limpio y buenas prácticas"
+
+        
+
+       
+    },
+    "Portfolio":{
+        "tituloportfolio":"PORTFOLIO",
+        "proyecto1":"Hotel Eterno",
+        "proyecto2":"Ecommerce Sneakers",
+        "proyecto3":"Rick and Morty"
+        
+
+       
+    }
+
+
 }

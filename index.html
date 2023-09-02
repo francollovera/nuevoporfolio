@@ -16,15 +16,26 @@
                 <a href="#">Franco</a>
             </div>
             <nav id="nav">
-                
                 <ul>
-                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li data-section="encabezado" data-value="nav-inicio"><a  href="#inicio" onclick="seleccionar()">INICIO</a></li>
                     <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
                     <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
                     <li><a href="#curriculum" onclick="seleccionar()">EDUCACION</a></li>
                     <li><a href="#portfolio" onclick="seleccionar()">PORTFOLIO</a></li>
+                    <!-- <div class="flags__item" data-language='es'> <li><a>ES</a></li></div>
+                    <div class="flags__item" data-language='en'><li><a  o>EN</a></li></div> -->
+                   
                     
-                </ul>
+
+                    <!-- <li><a onclick="seleccionar()">
+                        <div class="flags__item"data-language='es'>ES</div>
+                    </a></li>
+                    <li><a onclick="seleccionar()">
+                        <div class="flags__item"data-language='es'>EN</div>
+                    </a></li> -->
+                
+                
+            </ul>
             </nav>
             <div class="nav-responsive" onclick="mostrarOcultarMenu()">
                 <i class="fa-solid fa-bars"></i>
@@ -39,11 +50,8 @@
                 <img src="img/yo.jpg" alt="">
             </div>
             <h1>FRANCO LLOVERA</h1>
-            <h2>Desarrollador Front End</h2>
+            <h2 data-section="inicio" data-value="trabajo">Desarrollador Front End</h2>
             <div class="redes">
-                
-                
-                
                 <a href="https://www.linkedin.com/in/francollovera/"><i class="fa-brands fa-linkedin-in"></i></a>
                 <a href="https://github.com/francollovera"><i class="fa-brands fa-github"></i></a>
             </div>
@@ -61,7 +69,6 @@
                 <div class="col">
                     <h3>Datos Personales</h3>
                     <ul>
-                        
                         <li>
                             <strong>Teléfono</strong>
                             +54 3815147298
@@ -70,7 +77,6 @@
                             <strong>Email</strong>
                             francollovera@gmail.com
                         </li>
-                        
                         <li>
                             <strong>Ubicación</strong>
                             Tucuman, Argentina
@@ -86,7 +92,6 @@
                 <div class="col">
                     <h3>Intereses</h3>
                     <div class="contenedor-intereses">
-                       
                         <div class="interes">
                             <i class="fa-solid fa-headphones"></i>
                             <span>CANTO</span>
@@ -95,12 +100,10 @@
                             <i class="fa-solid fa-plane"></i>
                             <span>VIAJAR</span>
                         </div>
-                        
                         <div class="interes">
                             <i class="fa-solid fa-person-hiking"></i>
                             <span>DEPORTE</span>
                         </div>
-                        
                         <div class="interes">
                             <i class="fa-solid fa-car"></i>
                             <span>AUTOS</span>
@@ -109,16 +112,13 @@
                             <i class="fa-solid fa-camera"></i>
                             <span>FOTOS</span>
                         </div>
-                        
                     </div>
                 </div>
             </div>
             <a href="https://drive.google.com/file/d/1OIB1NP7M-fSJJlTvdr2U7rCmfFsWKsiP/view?usp=sharing"><button>
-                
                 Descargar CV <i class="fa-solid fa-download"></i>
                 <span class="overlay"></span>
             </button></a>
-            
         </div>
     </section>
 
@@ -214,118 +214,100 @@
                             </div>
                         </div>
                     </div>
-                 
                 </div>
             </div>
         </div>
     </section>
-<!-- SECCION CURRICULUM -->
-<section id="curriculum" class="curriculum">
-    <div class="contenido-seccion">
-        <h2>Educación</h2>
-        <div class="fila">
-            <div class="col izquierda">
-               
-                <div class="item izq">
-                    <h4>Desarrollador Full</h4>
+    <!-- SECCION CURRICULUM -->
+    <section id="curriculum" class="curriculum">
+        <div class="contenido-seccion">
+            <h2>Educación</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <div class="item izq">
+                        <h4>Desarrollador Full Stack</h4>
                         <span class="casa">Academia Soy Henry</span>
                         <span class="fecha">Ene 2023 - Jun 2023</span>
                         <p>Durante mi experiencia en Henry, he logrado alcanzar diversos logros y desempeñar funciones que han contribuido significativamente a mi crecimiento profesional. Participar en este programa de formación intensiva ha sido una experiencia sumamente enriquecedora y positiva, proporcionándome abundante material para aprender y un desafío constante que definitivamente vale la pena.</p>
-                    <div class="conectori">
-                        <div class="circuloi"></div>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
                     </div>
-                </div>
-                <div class="item izq">
-                    <h4>Curso CSS</h4>
+                    <div class="item izq">
+                        <h4>Curso CSS</h4>
                         <span class="casa">Codigo Facilito</span>
                         <span class="fecha">Jul 2023</span>
                         <p>El curso me dio las habilidades para continuar mi aprendizaje en CSS, hacer un diseño responsive y a la vez logar aprender animaciones para seguir agregando a mis diseños</p>
-                    <div class="conectori">
-                        <div class="circuloi"></div>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
                     </div>
                 </div>
-           
-            </div>
-
-            <div class="col derecha">
-                
-                <div class="item der">
-                    <h4>Front Developer</h4>
+                <div class="col derecha">
+                    <div class="item der">
+                        <h4>Front Developer</h4>
                         <span class="casa">Codigo Facilito</span>
                         <span class="fecha">Aug 2023</span>
-                        <p>Como el sector Front End es el area que me apasiona continué estudiando a fondo el diseño responsivo y las diferentes formas de hacerlo, al igual que profundizar en herramientas como Boostrap y otras.</p>
-                    <div class="conectord">
-                        <div class="circulod"></div>
+                        <p>Como el sector Front End es el área que me apasiona continué estudiando a fondo el diseño responsivo y las diferentes formas de hacerlo, al igual que profundizar en herramientas como Boostrap y otras.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
                     </div>
-                </div>
-                <div class="item der">
-                    <h4>Curso de TypeScript</h4>
+                    <div class="item der">
+                        <h4>Curso de TypeScript</h4>
                         <span class="casa">Codigo Facilito</span>
                         <span class="fecha">Jun 2023</span>
-                        <p>Al momento de estar finalizando mi carrera por la Academia Henry me aventuré en aprender un poco más e hice el curso de TypeScript para seguir aprendiendo un código mas limpio y buenas prácticas </p>
-                    <div class="conectord">
-                        <div class="circulod"></div>
+                        <p>Al momento de estar finalizando mi carrera por la Academia Henry me aventuré en aprender un poco más e hice el curso de TypeScript para seguir aprendiendo un código más limpio y buenas prácticas </p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
                     </div>
-                </div>
-                
                 </div>
             </div>
         </div>
-    </div>
-</section>
-
-   
+    </section>
     <!-- SECCION PORTFOLIO -->
     <section id="portfolio" class="portfolio">
         <div class="contenido-seccion">
             <h2>PORTFOLIO</h2>
             <div class="galeria">
                 <div class="proyecto">
-                    <a href="https://hotel-reservation-14qq.vercel.app/"><img src="img/foto hotel vercell.png" alt="">
+                    <a href="https://hotel-reservation-14qq.vercel.app/">
+                        <img src="img/foto hotel vercell.png" alt="">
                         <div class="overlay">
                             <h3>Hotel Eterno</h3>
-                            
-                        </div></a>
-                    
+                        </div>
+                    </a>
                 </div>
                 <div class="proyecto">
-                    <a href="https://ecomerce-sneakers.vercel.app/">  <img src="img/ecomerce.png" alt="">
+                    <a href="https://ecomerce-sneakers.vercel.app/">
+                        <img src="img/ecomerce.png" alt="">
                         <div class="overlay">
                             <h3>Ecommerce Sneakers</h3>
-                            
-                        </div></a>
-                  
+                        </div>
+                    </a>
                 </div>
                 <div class="proyecto">
                     <a href="https://api-rick-and-morty-lyart.vercel.app/">
                         <img src="img/captura rick-fotor-20230812203840.png" alt="">
-                    <div class="overlay">
-                        <h3>Rick and Morty</h3>
-                        
-                    </div>
+                        <div class="overlay">
+                            <h3>Rick and Morty</h3>
+                        </div>
                     </a>
-                    
-                </div>
-                
                 </div>
             </div>
         </div>
     </section>
-
-    
-
     <!-- footer -->
     <footer>
         <a href="#inicio" class="arriba">
             <i class="fa-solid fa-angles-up"></i>
         </a>
         <div class="redes">
-            
             <a href="https://www.linkedin.com/in/francollovera/"><i class="fa-brands fa-linkedin-in"></i></a>
-            <a href="https://github.com/francollovera"><i class="fa-brands fa-github"></i></i></a>
+            <a href="https://github.com/francollovera"><i class="fa-brands fa-github"></i></a>
         </div>
     </footer>
-
     <script src="script.js"></script>
 </body>
 </html>

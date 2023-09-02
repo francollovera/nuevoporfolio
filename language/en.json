@@ -1,0 +1,60 @@
+{
+    "encabezado": {
+        "header": "Franco",
+        "nav-inicio": "HOME",
+        "nav-sobremi": "ABOUT ME",
+        "nav-skills": "SKILLS",
+        "nav-educacion": "EDUCATION",
+        "nav-portfolio": "PORTFOLIO"
+    },
+    "inicio": {
+        "titulo": "FRANCO LLOVERA",
+        "trabajo": "Front End Developer"
+    },
+    "sobremi": {
+        "titulosobremi": "About Me",
+        "parrafo": "Hi, I'm Franco Llovera. A passionate Full Stack web developer specializing in FrontEnd, originally from San Miguel de Tucumán, Argentina, and 29 years old. I've always been fascinated by the world of web design and everything related to the visual aspects of applications. My focus is on creating engaging and functional digital experiences for users. I have extensive knowledge in technologies such as React, Redux, HTML, CSS, Node, SQL, and JavaScript. During my education at UTN Tucumán, in addition to the opportunity to learn at Google, my passion for web development led me on an exciting educational journey at Soy Henry Academy, where I gained strong skills and participated in diverse projects. I'm ready to take on new challenges and collaborate on projects that make a difference. If you're looking for a passionate and dedicated web developer, don't hesitate to contact me. Together, we can turn incredible ideas into reality in the world of web development!"
+    },
+    "datospersonales": {
+        "titulodatos": "Personal Information",
+        "telefono": "Phone",
+        "Ubicación": "Location",
+        "Cargo": "Occupation"
+    },
+    "intereses": {
+        "titulointereses": "Interests",
+        "canto": "SINGING",
+        "ubicación": "TRAVEL",
+        "deporte": "SPORTS",
+        "autos": "CARS",
+        "fotos": "PHOTOGRAPHY",
+        "cv": "Download CV"
+    },
+    "Professional Skills": {
+        "comunicacion": "Communication",
+        "trabajoenequipo": "Teamwork",
+        "cretaividad": "Creativity",
+        "dedicacion": "Dedication"
+    },
+    "educacion": {
+        "tituloeducacion": "Education",
+        "cargo1": "Full Stack Developer",
+        "academia1": "Soy Henry Academy",
+        "experiencia1": "During my experience at Henry, I achieved various milestones and played roles that significantly contributed to my professional growth. Participating in this intensive training program has been an extremely enriching and positive experience, providing me with abundant learning material and a constant challenge that is definitely worth it.",
+        "cargo2": "CSS Course",
+        "academia2": "Codigo Facilito",
+        "experiencia2": "The course gave me the skills to continue my learning in CSS, create responsive designs, and learn animations to enhance my designs.",
+        "cargo3": "Front Developer",
+        "academia3": "Codigo Facilito",
+        "experiencia3": "Since the Front End sector is the area that excites me the most, I continued to study responsive design in depth and different ways to achieve it, as well as delving into tools like Bootstrap and others.",
+        "cargo4": "TypeScript Course",
+        "academia4": "Codigo Facilito",
+        "experiencia4": "As I was completing my career at Soy Henry Academy, I ventured to learn a bit more and took the TypeScript course to continue learning cleaner code and best practices."
+    },
+    "Portfolio": {
+        "tituloportfolio": "PORTFOLIO",
+        "proyecto1": "Hotel Eterno",
+        "proyecto2": "Ecommerce Sneakers",
+        "proyecto3": "Rick and Morty"
+    }
+}
