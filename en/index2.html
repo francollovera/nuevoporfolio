@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Portfolio</title>
-    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="./estilo2.css">
 </head>
 <body>
     <!-- MENU ENCABEZADO -->
@@ -17,15 +17,15 @@
             </div>
             <nav id="nav">
                 <ul>
-                    <li ><a  href="#inicio" onclick="seleccionar()">INICIO</a></li>
-                    <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+                    <li data-section="encabezado" data-value="nav-inicio"><a  href="#inicio" onclick="seleccionar()">HOME</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">ABOUT ME</a></li>
                     <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
-                    <li><a href="#curriculum" onclick="seleccionar()">EDUCACION</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">EDUCATION</a></li>
                     <li><a href="#portfolio" onclick="seleccionar()">PORTFOLIO</a></li>
                     
-                    <li><a>
+                    <li><a >
                         
-                        <span class="en">EN</span>
+                        <span class="en">ES</span>
                         <input type="checkbox" class="check">
                     </a></li>
                    
@@ -46,10 +46,10 @@
     <section id="inicio" class="inicio">
         <div class="contenido-banner">
             <div class="contenedor-img">
-                <img src="img/yo.jpg" alt="">
+                <img src="../img/yo.jpg" alt="">
             </div>
             <h1>FRANCO LLOVERA</h1>
-            <h2 >Desarrollador Front End</h2>
+            <h2 data-section="inicio" data-value="trabajo">Front End Developer</h2>
             <div class="redes">
                 <a href="https://www.linkedin.com/in/francollovera/"><i class="fa-brands fa-linkedin-in"></i></a>
                 <a href="https://github.com/francollovera"><i class="fa-brands fa-github"></i></a>
@@ -60,16 +60,16 @@
     <!-- SECCION SOBRE MI -->
     <section id="sobremi" class="sobremi">
         <div class="contenido-seccion">
-            <h2>Sobre Mí</h2>
-            <p><span>Hola, soy Franco Llovera.</span> Un apasionado desarrollador web Full Stack especializado en FrontEnd, originario de San Miguel de Tucumán, Argentina, y con 29 años de edad. Siempre me ha fascinado el mundo del diseño web y todo lo relacionado con los aspectos visuales de las aplicaciones. Mi enfoque se centra en crear experiencias digitales atractivas y funcionales para los usuarios. Tengo amplios conocimientos en tecnologías como React, Redux, HTML, CSS, Node, SQL y JavaScript. Durante mi educación en la UTN de Tucumán, además de tener la oportunidad de aprender en Google, mi pasión por el desarrollo web me llevó a embarcarme en un emocionante viaje educativo en la academia Soy Henry, donde adquirí habilidades sólidas y participé en proyectos diversos. Estoy listo para asumir nuevos desafíos y colaborar en proyectos que marquen la diferencia. Si estás buscando un desarrollador web apasionado y dedicado, no dudes en contactarme. ¡Juntos podemos convertir ideas increíbles en realidad en el mundo del desarrollo web!</p>
+            <h2>About me</h2>
+            <p><span>Hello, I'm Franco Llovera.</span> a passionate Full Stack web developer specialized in FrontEnd, originally from San Miguel de Tucumán, Argentina, and I'm 29 years old. I've always been fascinated by the world of web design and everything related to the visual aspects of applications. My focus is on creating engaging and functional digital experiences for users. I have extensive knowledge in technologies such as React, Redux, HTML, CSS, Node, SQL, and JavaScript. During my education at UTN in Tucumán, in addition to having the opportunity to learn at Google, my passion for web development led me to embark on an exciting educational journey at Soy Henry Academy, where I acquired strong skills and participated in various projects. I'm ready to take on new challenges and collaborate on projects that make a difference. If you're looking for a passionate and dedicated web developer, feel free to contact me. Together, we can turn amazing ideas into reality in the world of web development!</p>
 
             <div class="fila">
                 <!-- datos personales -->
                 <div class="col">
-                    <h3>Datos Personales</h3>
+                    <h3>Personal Data</h3>
                     <ul>
                         <li>
-                            <strong>Teléfono</strong>
+                            <strong>Phone</strong>
                             +54 3815147298
                         </li>
                         <li>
@@ -77,11 +77,11 @@
                             francollovera@gmail.com
                         </li>
                         <li>
-                            <strong>Ubicación</strong>
+                            <strong>Location</strong>
                             Tucuman, Argentina
                         </li>
                         <li>
-                            <strong>Cargo</strong>
+                            <strong>Position</strong>
                             <span>Front End Developer</span>
                         </li>
                     </ul>
@@ -89,33 +89,33 @@
 
                 <!-- intereses -->
                 <div class="col">
-                    <h3>Intereses</h3>
+                    <h3>Hobbies</h3>
                     <div class="contenedor-intereses">
                         <div class="interes">
                             <i class="fa-solid fa-headphones"></i>
-                            <span>CANTO</span>
+                            <span>SINGING</span>
                         </div>
                         <div class="interes">
                             <i class="fa-solid fa-plane"></i>
-                            <span>VIAJAR</span>
+                            <span>TRAVEL</span>
                         </div>
                         <div class="interes">
                             <i class="fa-solid fa-person-hiking"></i>
-                            <span>DEPORTE</span>
+                            <span>SPORT</span>
                         </div>
                         <div class="interes">
                             <i class="fa-solid fa-car"></i>
-                            <span>AUTOS</span>
+                            <span>CARS</span>
                         </div>
                         <div class="interes">
                             <i class="fa-solid fa-camera"></i>
-                            <span>FOTOS</span>
+                            <span>PHOTOS</span>
                         </div>
                     </div>
                 </div>
             </div>
             <a href="https://drive.google.com/file/d/1OIB1NP7M-fSJJlTvdr2U7rCmfFsWKsiP/view?usp=sharing"><button>
-                Descargar CV <i class="fa-solid fa-download"></i>
+                Download CV <i class="fa-solid fa-download"></i>
                 <span class="overlay"></span>
             </button></a>
         </div>
@@ -182,7 +182,7 @@
                 <div class="col">
                     <h3>Professional Skills</h3>
                     <div class="skill">
-                        <span>Comunicación</span>
+                        <span>Comunication</span>
                         <div class="barra-skill">
                             <div class="progreso">
                                 <span>85%</span>
@@ -190,7 +190,7 @@
                         </div>
                     </div>
                     <div class="skill">
-                        <span>Trabajo en Equipo</span>
+                        <span>Teamwork</span>
                         <div class="barra-skill">
                             <div class="progreso">
                                 <span>90%</span>
@@ -198,7 +198,7 @@
                         </div>
                     </div>
                     <div class="skill">
-                        <span>Creatividad</span>
+                        <span>Creativity</span>
                         <div class="barra-skill">
                             <div class="progreso">
                                 <span>80%</span>
@@ -206,7 +206,7 @@
                         </div>
                     </div>
                     <div class="skill">
-                        <span>Dedicación</span>
+                        <span>Dedication</span>
                         <div class="barra-skill">
                             <div class="progreso">
                                 <span>90%</span>
@@ -220,23 +220,23 @@
     <!-- SECCION CURRICULUM -->
     <section id="curriculum" class="curriculum">
         <div class="contenido-seccion">
-            <h2>Educación</h2>
+            <h2>Education</h2>
             <div class="fila">
                 <div class="col izquierda">
                     <div class="item izq">
-                        <h4>Desarrollador Full Stack</h4>
-                        <span class="casa">Academia Soy Henry</span>
+                        <h4>Full Stack Developer</h4>
+                        <span class="casa">Academy Soy Henry</span>
                         <span class="fecha">Ene 2023 - Jun 2023</span>
-                        <p>Durante mi experiencia en Henry, he logrado alcanzar diversos logros y desempeñar funciones que han contribuido significativamente a mi crecimiento profesional. Participar en este programa de formación intensiva ha sido una experiencia sumamente enriquecedora y positiva, proporcionándome abundante material para aprender y un desafío constante que definitivamente vale la pena.</p>
+                        <p>During my experience at Henry, I have achieved various accomplishments and performed roles that have significantly contributed to my professional growth. Participating in this intensive training program has been an extremely enriching and positive experience, providing me with ample learning material and a constant challenge that is definitely worth it.</p>
                         <div class="conectori">
                             <div class="circuloi"></div>
                         </div>
                     </div>
                     <div class="item izq">
-                        <h4>Curso CSS</h4>
+                        <h4>Course CSS</h4>
                         <span class="casa">Codigo Facilito</span>
                         <span class="fecha">Jul 2023</span>
-                        <p>El curso me dio las habilidades para continuar mi aprendizaje en CSS, hacer un diseño responsive y a la vez logar aprender animaciones para seguir agregando a mis diseños</p>
+                        <p>The course provided me with the skills to continue my learning in CSS, create responsive designs, and also enabled me to learn animations to further enhance my designs.</p>
                         <div class="conectori">
                             <div class="circuloi"></div>
                         </div>
@@ -247,16 +247,16 @@
                         <h4>Front Developer</h4>
                         <span class="casa">Codigo Facilito</span>
                         <span class="fecha">Aug 2023</span>
-                        <p>Como el sector Front End es el área que me apasiona continué estudiando a fondo el diseño responsivo y las diferentes formas de hacerlo, al igual que profundizar en herramientas como Boostrap y otras.</p>
+                        <p>As the Front End sector is the area that I am passionate about, I continued studying responsive design in depth and the various ways to achieve it, as well as delving into tools like Bootstrap and others.</p>
                         <div class="conectord">
                             <div class="circulod"></div>
                         </div>
                     </div>
                     <div class="item der">
-                        <h4>Curso de TypeScript</h4>
+                        <h4>Course of TypeScript</h4>
                         <span class="casa">Codigo Facilito</span>
                         <span class="fecha">Jun 2023</span>
-                        <p>Al momento de estar finalizando mi carrera por la Academia Henry me aventuré en aprender un poco más e hice el curso de TypeScript para seguir aprendiendo un código más limpio y buenas prácticas </p>
+                        <p>As I was nearing the end of my studies at Henry Academy, I ventured into learning a bit more and took the TypeScript course to continue learning cleaner code and best practices. </p>
                         <div class="conectord">
                             <div class="circulod"></div>
                         </div>
@@ -272,15 +272,15 @@
             <div class="galeria">
                 <div class="proyecto">
                     <a href="https://hotel-reservation-14qq.vercel.app/">
-                        <img src="img/foto hotel vercell.png" alt="">
+                        <img src="../img/foto hotel vercell.png" alt="">
                         <div class="overlay">
-                            <h3>Hotel Eterno</h3>
+                            <h3>Eternal Hotel</h3>
                         </div>
                     </a>
                 </div>
                 <div class="proyecto">
                     <a href="https://ecomerce-sneakers.vercel.app/">
-                        <img src="img/ecomerce.png" alt="">
+                        <img src="../img/ecomerce.png" alt="">
                         <div class="overlay">
                             <h3>Ecommerce Sneakers</h3>
                         </div>
@@ -288,7 +288,7 @@
                 </div>
                 <div class="proyecto">
                     <a href="https://api-rick-and-morty-lyart.vercel.app/">
-                        <img src="img/captura rick-fotor-20230812203840.png" alt="">
+                        <img src="../img/captura rick-fotor-20230812203840.png" alt="">
                         <div class="overlay">
                             <h3>Rick and Morty</h3>
                         </div>
@@ -307,6 +307,6 @@
             <a href="https://github.com/francollovera"><i class="fa-brands fa-github"></i></a>
         </div>
     </footer>
-    <script src="script.js"></script>
+    <script src="./script2.js"></script>
 </body>
 </html>
